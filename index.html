@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN"
+           xmlns:wb="http://open.weibo.com/wb">
+  <head>       
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta charset="gb2312"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="description" content="{$corpname}"/>
+		<meta name="author" content="Iot-space"/>
+		<meta name="renderer" content="webkit"/>
+		<meta property="wb:webmaster" content="7e2da65b2c3219b2" />
+		<!-- 指定网页使用 webkit 引擎渲染 -->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<!-- 不被百度转码 -->
+		<link rel="shortcut icon" href="../../assets/ico/favicon.png"/>
+		<title>
+			我的网站
+		</title>
+       
+
+		<!-- 引入pure-css -->
+		<link href="__PUBLIC__/pure/pure.css" rel="stylesheet" type="text/css"/> 
+		<link href="__PUBLIC__/pure/pure-grids-responsive-min.css" rel="stylesheet" type="text/css"/> 
+
+		<!-- 引入jquery -->       
+        <script type="text/javascript" src="__PUBLIC__/JQuery/jquery-1.8.3.min.js">	</script>
+
+       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">			
+			</script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">		
+			</script>
+		<![endif]-->
+<script type="text/javascript">   
+//最精简的模板引擎
+//https://github.com/trix/nano/blob/master/nano.js
+function nano(template, data) {
+  return template.replace(/\[([\w\.]*)\]/g, function(str, key) {
+    var keys = key.split("."), v = data[keys.shift()];
+    for (var i = 0, l = keys.length; i < l; i++) v = v[keys[i]];
+    return (typeof v !== "undefined" && v !== null) ? v : "";
+  });
+}
+</script>
+  
+<!--页面style-->    
+ <style>
+</style> 
+ 
+    
+       
+</head>
+
+  <body  >
+    <div class="pure-g">
+	<div class="pure-u-3-4"  >
+         <div style="background-color:red;height:100px;">
+	      我是div
+	   </div>
+	 </div> 
+	<div class="pure-u-1-4"  >
+         <div style="background-color:blue;height:100px;">
+	      我是div
+	   </div>
+	 </div> 
+  </div> 
+  
+  <div class="pure-g zz-bgc01">
+        
+
+             <!--头部-->
+			<div class="pure-u-1  zz-bgc19   zz-jianbian2 zz-bdb1 zz-bdc19" >
+              <div class="zz-auto"  style="padding: 12px 15px;max-width: 3280px;">
+                    <div class="pure-g">
+				     <div class="pure-u-3-4"  id="pb61title"  tabindex='-1'  >
+							     <h3   class="zz-cor45 zz-mg0 zz-mp1" style="margin:0px;padding-left:10px;">
+                                       洛阳
+                                      <div style="font-style: italic; display: inline-block; "   class="zz-cor01">
+                                             超旺 </div>
+                                   软件</h3>
+
+					 </div>
+	  
+
+              </div>
+        	</div>
+		</div>
+			
+			
+	
+
+			
+			
+            <!--主体内容-->
+<!-- div>       <p style="width:200px"> <b>hello world</p>
+</div> -->
+
+            <!--底部  -->
+			<div class="pure-u-1  " >
+              <div class="zz-auto zz-tc zz-bgc19 zz-cor02"  
+			          style="padding: 1% 5px;max-width: 3280px;">
+                    <div class="pure-g " >
+					        <div class="pure-u-1 zz-tc " >
+								<h5 style="margin:5px 0;">版权所有:&nbsp;&nbsp;洛阳超旺&nbsp;&nbsp;2016-2026</h5>
+								<h5 style="margin:5px 0;">网&nbsp;&nbsp;&nbsp;&nbsp;址:&nbsp;&nbsp;
+								        <a href="http://www.softputian.com" style="color:yellow;">www.softputian.com</a></h5>
+					         </div>
+					</div>
+              </div>
+        	</div>			
+
+		
+<script type="text/javascript">
+
+
+
+
+
+function abc(){
+alert('hello the world');
+}
+
+
+abc();
+
+</script>
+    
+
+  </body>
+</html>
+
